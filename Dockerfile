@@ -55,4 +55,4 @@ ENV PYTHONUNBUFFERED=TRUE
 
 WORKDIR /code
 
-CMD ["tail", "-f", "/dev/null"]
+CMD ["python", "swell/main.py"]
